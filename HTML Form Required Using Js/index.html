@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="styles.css">
+	<script type="text/javascript" src="script.js"></script>
+	<title>Student Information</title>
+</head>
+<body>
+	<div class="container">
+		<fieldset>
+			<form action="" method="post">
+				<h1>Student Information</h1>
+				<table>
+					<tr>
+						<td>
+							<label>Name</label>
+						</td>
+						<td>
+							<input type="text" oninput="ErrMsg_Name(this);" oninvalid="ErrMsg_Name(this);" name="name" id="name" required="">
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<label>Gender </label>
+						</td>
+						<td>
+							<label>Male:</label>
+							<input type="radio" name="gender" value="Male" id="male" required>
+							<label>Female:</label>
+							<input type="radio" name="gender" value="Female" id="female" required>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<label>DOB</label>
+						</td>
+						<td>
+							<input type="date" oninput="ErrMsg_Dob(this);" oninvalid="ErrMsg_Dob(this);" name="dob" id="dob" required="">
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<label>Country</label>
+						</td>
+						<td>
+							<select name="country" id="country" required="">
+								<option value="Ampara">Sri Lanka</option>
+								<option value="Anuradhapura">Australia</option>
+								<option value="Badulla">America</option>
+								<option value="Batticaloa">India</option>
+								<option value="Colombo">Indonesia</option>
+								<option value="Galle">England</option>
+								<option value="Gampaha">Canada</option>
+								<option value="Hambantota">Frans</option>
+								<option value="Jaffna">China</option>
+								<option value="Kalutara">Japan</option>
+								<option value="Kandy">Italy</option>
+								<option value="Kegalle">German</option>
+								<option value="Kilinochchi">Russia</option>
+								<option value="Kurunegala">Pakistan</option>
+								<option value="Mannar">Bangaladesh</option>
+								<option value="Matale">Iran</option>
+								<option value="Matara">Maldives</option>
+								<option value="Monaragala">Malaysia</option>
+							</select>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<label>Address</label>
+						</td>
+						<td>
+							<input type="text" oninput="ErrMsg_Address(this);" oninvalid="ErrMsg_Address(this);" name="address" id="address" required="">
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<label>Hobby</label>
+						</td>
+						<td>
+							<label>Cricket</label>
+							<input type="checkbox" id="cricket" name="cricket" value="Cricket">
+							<label>Football</label>
+							<input type="checkbox" id="football" name="football" value="Football">
+							<label>Vollyball</label>
+							<input type="checkbox" id="vollyball" name="vollyball" value="Vollyball">
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<label>E-mail</label>
+						</td>
+						<td>
+							<input type="email" oninput="ErrMsg_Mail(this);" oninvalid="ErrMsg_Mail(this);" name="email" id="email" required="">
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<label>Password</label>
+						</td>
+						<td>
+							<input type="password"  oninput="ErrMsg_Password(this);" oninvalid="ErrMsg_Password(this);" name="password" id="password" required="">
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<label>Re-Type Password</label>
+						</td>
+						<td>
+							<input type="password"  oninput="ErrMsg_Re_Password(this);" oninvalid="ErrMsg_Re_Password(this);" name="re-password" id="re-password" required="">
+						</td>
+					</tr>
+					<tr>
+						<td>
+						
+						</td>
+						<td>
+							<input type="submit" name="btnSubmit" id="btnSubmit" value="Submit">
+							<input type="reset" name="btnReset" id="btnReset" value="Reset">
+						</td>
+					</tr>
+				</table>
+			</form>
+		</fieldset>
+	</div>
+</body>
+</html>
