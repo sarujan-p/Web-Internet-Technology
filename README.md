@@ -1,2 +1,2 @@
-# Wen-Internet-Technology
+# Web-Internet-Technology
 Web Application Development
