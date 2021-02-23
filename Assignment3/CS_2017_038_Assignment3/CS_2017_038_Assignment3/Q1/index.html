@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Sarujan P">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Grade Calculator</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="card mx-3 my-2">
+                <div class="card my-4 mx-5">
+                    <fieldset class="form-group m-3">
+
+                        <legend class="text-center">Student Grade Calculator</legend>
+                        <input class="form-control mt-2" type="text" id="id" name="id" placeholder="Enter Student ID (Format:ST-00100)">
+                        <div class="alert">
+                            <span class="fas fa-exclamation-circle"></span>
+                            <span>Student ID Can't be empty!</span>
+                        </div>
+                        <div class="alert0">
+                            <span class="fas fa-exclamation-circle"></span>
+                            <span>Student ID should be in 'ST-00100' this format!</span>
+                        </div>
+                        <input class="form-control mt-2" type="number" id="maths" name="maths" min="0" max="100" maxlength="3" placeholder="Enter Mathematics Marks">
+                        <div class="alert1">
+                            <span class="fas fa-exclamation-circle"></span>
+                            <span>Mathematics Marks Can't be empty!</span>
+                        </div>
+                        <input class="form-control mt-2" type="number" id="english" name="english" min="0" max="100" maxlength="3" placeholder="Enter English Marks">
+                        <div class="alert2">
+                            <span class="fas fa-exclamation-circle"></span>
+                            <span>English Marks Can't be empty!</span>
+                        </div>
+                        <input class="form-control mt-2" type="number" id="science" name="science" min="0" max="100" maxlength="3" placeholder="Enter Science Marks">
+                        <div class="alert3">
+                            <span class="fas fa-exclamation-circle"></span>
+                            <span>Science Marks Can't be empty!</span>
+                        </div>
+                        <div class="alert4">
+                            <span class="fas fa-exclamation-circle"></span>
+                            <span>All field are required!</span>
+                        </div>
+                        <div class="alert5">
+                            <span class="fas fa-exclamation-circle"></span>
+                            <span>Marks Should be 0 to 100</span>
+                        </div>
+                        <input class="form-control mt-2" type="submit" id="submit" name="submit" value="ENTER" onclick="add();">
+
+                    </fieldset>
+                </div>
+                <div style="overflow-y: scroll;">
+                    <legend class="text-center">Student Results</legend>
+                    <div class="card mx-3 my-2 py-1" style="overflow-x: auto;">
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>
+                                        <div class="card px-2 ml-1 py-1">StudentNo.</div>
+                                    </th>
+                                    <th>
+                                        <div class="card px-2 py-1">Mathematics</div>
+                                    </th>
+                                    <th>
+                                        <div class="card px-2 py-1">English</div>
+                                    </th>
+                                    <th>
+                                        <div class="card px-2 py-1">Science</div>
+                                    </th>
+                                    <th>
+                                        <div class="card px-2 py-1">Total</div>
+                                    </th>
+                                    <th>
+                                        <div class="card px-2 py-1">Average</div>
+                                    </th>
+                                    <th>
+                                        <div class="card px-2 py-1 mr-1">Grade</div>
+                                    </th>
+                                </tr>
+                            </thead>
+                            <tbody id="tb"></tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

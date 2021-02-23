@@ -1,0 +1,107 @@
+input[type="submit"] {
+    background-color: #F1F1F1;
+}
+
+.card {
+    border-color: #737373;
+    border-radius: 0;
+    margin: 0.5px;
+    text-align: center;
+    max-height: 640px;
+}
+
+.alert0 {
+    width: auto;
+    display: none;
+    background: #ef5350;
+    padding: 10px 20px;
+    margin: 15px 0;
+    border-radius: 4px;
+    border-left: 8px solid #b71c1c;
+    color: #ffffff;
+    overflow: hidden;
+    pointer-events: none;
+}
+
+.alert {
+    width: auto;
+    display: none;
+    background: #ef5350;
+    padding: 10px 20px;
+    margin: 15px 0;
+    border-radius: 4px;
+    border-left: 8px solid #b71c1c;
+    color: #ffffff;
+    overflow: hidden;
+    pointer-events: none;
+}
+
+.alert1 {
+    width: auto;
+    display: none;
+    background: #ef5350;
+    padding: 10px 20px;
+    margin: 15px 0;
+    border-radius: 4px;
+    border-left: 8px solid #b71c1c;
+    color: #ffffff;
+    overflow: hidden;
+    pointer-events: none;
+}
+
+.alert2 {
+    width: auto;
+    display: none;
+    background: #ef5350;
+    padding: 10px 20px;
+    margin: 15px 0;
+    border-radius: 4px;
+    border-left: 8px solid #b71c1c;
+    color: #ffffff;
+    overflow: hidden;
+    pointer-events: none;
+}
+
+.alert3 {
+    width: auto;
+    display: none;
+    background: #ef5350;
+    padding: 10px 20px;
+    margin: 15px 0;
+    border-radius: 4px;
+    border-left: 8px solid #b71c1c;
+    color: #ffffff;
+    overflow: hidden;
+    pointer-events: none;
+}
+
+.alert4 {
+    width: auto;
+    display: none;
+    width: auto;
+    background: #ef5350;
+    padding: 10px 20px;
+    margin: 15px 0;
+    border-radius: 4px;
+    border-left: 8px solid #b71c1c;
+    color: #ffffff;
+    overflow: hidden;
+    pointer-events: none;
+}
+
+.alert5 {
+    width: auto;
+    display: none;
+    background: #ffdb9b;
+    padding: 10px 20px;
+    margin: 15px 0;
+    border-radius: 4px;
+    border-left: 8px solid#ffa502;
+    color: #000000;
+    overflow: hidden;
+    pointer-events: none;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
